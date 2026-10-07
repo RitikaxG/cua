@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.6.0](https://github.com/trycua/cua/compare/cua-spacesd-v0.5.3...cua-spacesd-v0.6.0) (2026-10-07)
+
+
+### Features
+
+* **cua-driver:** plan cursor motion with the new cua-cursor-motion crate ([#4758](https://github.com/trycua/cua/issues/4758)) ([558cb53](https://github.com/trycua/cua/commit/558cb534d26ad51680ffd0f85b249bdebe64989a))
+* **cua-driver:** plan cursor motions from the SDKs through UniFFI ([#4767](https://github.com/trycua/cua/issues/4767)) ([365f5e3](https://github.com/trycua/cua/commit/365f5e3c5b92f9457dbd560ddea8ec0268565724))
+
+
+### Bug Fixes
+
+* **sdk:** honor HTTP proxies for controller RPC ([#4795](https://github.com/trycua/cua/issues/4795)) ([23e23d4](https://github.com/trycua/cua/commit/23e23d4cc321b1e64f5832d44a150667ff0d5c04))
+* **spaces:** report directory refresh failures ([#4716](https://github.com/trycua/cua/issues/4716)) ([1f96a4b](https://github.com/trycua/cua/commit/1f96a4bf0e3f02dcf79ab83d78a4fc9c017d24ff))
+
 ## [0.5.3](https://github.com/trycua/cua/compare/cua-spacesd-v0.5.2...cua-spacesd-v0.5.3) (2026-10-03)
 
 
