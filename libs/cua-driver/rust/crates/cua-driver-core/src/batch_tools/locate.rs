@@ -477,6 +477,12 @@ impl<'a> Locator<'a> {
                 title: None,
             });
         }
+        self.listed_window(spec).await
+    }
+
+    /// Like [`Self::window`], but always confirms the window through
+    /// `list_windows`, so the result carries its app name and title.
+    pub async fn listed_window(&self, spec: &WindowSpec) -> Result<Window, Miss> {
         if spec.is_empty() {
             return Err(Miss::new(
                 "no_window",
